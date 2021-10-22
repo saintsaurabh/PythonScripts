@@ -3,3 +3,5 @@ r = {4,5,("chennai",("mumbai")),(12,45,87,"bengaluru")}
 
 # hello from r
 print(g[3])
+
+#
