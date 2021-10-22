@@ -1,17 +1,13 @@
-# This is a sample Python script.
+s = ([1,9,2,8,7,"pyspiders"],12,(47.8,6-5j),((["hello"])))
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 2nd l of hello
+print(s[3][0][3])
 
+# Complex number (6-5j)
+print(s[2][1])
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# d of pyspiders
+print(s[0][5][5])
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-# Testing Git commit
+# 1 from the first list
+print(s[0][0])
