@@ -96,3 +96,15 @@ print("\nTuple")
 print(bool(("Waladimir Putin")))
 print(bool((0,5,7)))
 print(bool(()))
+
+# set
+print("\nSet")
+print(bool({5,4,3,5,1,8,7}))
+print(bool({"Demolish","Fatal"}))
+print(bool(set()))
+
+# dict
+print("\nDictionary")
+print(bool({}))
+print(bool({'a':"Mexican",'b':"American"}))
+print(bool({3:"Thrift",4:"Serious"}))
