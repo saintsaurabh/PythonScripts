@@ -25,3 +25,9 @@ print(g[3][0][-1:-7:-1])
 
 # bengal from bengaluru
 print(g[2][0][:6:])
+
+# iaau from Guwahati
+print(b['a'][0][:-8:-2])
+
+# olle from hello world
+print(b[11][0][0][-7:-11:-1])
