@@ -59,6 +59,40 @@ print("\nString")
 print(complex("61.12-73j"))
 print(complex("92.0+34j"))
 
-# Bool
-print("\nIntger")
-print(bool())
+# Bool into any datatype
+
+# int
+print("\nInteger")
+print(bool(23))
+print(bool(0))
+print(bool(1))
+
+# float
+print("\nFLoat")
+print(bool(36.90))
+print(bool(13.27))
+print(bool(0.0))
+
+# complex
+print("\nComplex")
+print(bool(2 +6j))
+print(bool(45-90j))
+print(bool(0-0j))
+
+# str
+print("\nString")
+print(bool('Carnage'))
+print(bool(' '))
+print(bool(''))
+
+# list
+print("\nList")
+print(bool(["Kazakhstan"]))
+print(bool([]))
+print(bool([1,2,3]))
+
+# tuple
+print("\nTuple")
+print(bool(("Waladimir Putin")))
+print(bool((0,5,7)))
+print(bool(()))
