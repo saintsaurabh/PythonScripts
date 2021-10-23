@@ -108,3 +108,5 @@ print("\nDictionary")
 print(bool({}))
 print(bool({'a':"Mexican",'b':"American"}))
 print(bool({3:"Thrift",4:"Serious"}))
+
+
