@@ -174,3 +174,21 @@ print(tuple({7,4,23,56,23,8,9,4,1,1}))
 # dict
 print("\nDictionary")
 print(tuple({'3':(33,333,44,444),'5':('Makaram','Nevermind')}))
+
+# List into String, Tuple, Set, Dictionary
+
+# str
+print("\nString")
+print(list("Clock Tower"))
+
+# tuple
+print("\nTuple")
+print(list((1,2,5,3,9)))
+
+# set
+print("\nSet")
+print(list({2,34,56,98,2}))
+
+# dict
+print("\nDictionary")
+print(list({'a':"Kolkata",'b':'Hyderabad'}))
