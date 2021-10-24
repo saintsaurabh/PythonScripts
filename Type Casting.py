@@ -109,4 +109,68 @@ print(bool({}))
 print(bool({'a':"Mexican",'b':"American"}))
 print(bool({3:"Thrift",4:"Serious"}))
 
+# String into Any data types
 
+# int
+print("\nInteger")
+print(str(12))
+print(str(98))
+print(str(39))
+
+# float
+print("\nFloat")
+print(str(46.90))
+print(str(0.923))
+print(str(0.01))
+
+# complex
+print("\nComplex")
+print(str(5+7j))
+print(str(2-1j))
+print(str(0j))
+
+# list
+print("\nList")
+print(str([1,2,3]))
+
+# tuple
+print("\nTuple")
+print(str((345,567.7654)))
+
+# set
+print("\nSet")
+print(str({7,6,8,9,7,6,9}))
+
+# dict
+print("\nDictionary")
+print(str({'a':'Jamaica','b':'Indonesia'}))
+
+# Tuple into String, List, Set, Dictionary
+
+# int
+#print("\nInteger")
+#print(tuple(56))
+
+# float
+#print("\nFloat")
+#print(tuple(23.84))
+
+# complex
+#print("\nComplex")
+#print(tuple(34+9j))
+
+# str
+print("\nString")
+print(tuple("Tenant"))
+
+# list
+print("\nList")
+print(tuple([34,12,98]))
+
+# set
+print("\nSet")
+print(tuple({7,4,23,56,23,8,9,4,1,1}))
+
+# dict
+print("\nDictionary")
+print(tuple({'3':(33,333,44,444),'5':('Makaram','Nevermind')}))
